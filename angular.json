@@ -18,18 +18,15 @@
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "src/tsconfig.app.json",
-            "assets": [
-              "src/favicon.ico",
-              "src/assets"
-            ],
+            "assets": ["src/favicon.ico", "src/assets"],
             "styles": [
               "node_modules/bpmn-js/dist/assets/diagram-js.css",
               "node_modules/bpmn-js/dist/assets/bpmn-font/css/bpmn.css",
               "src/styles.css",
-              "node_modules/@bpmn-io/form-js/dist/assets/form-js.css";
-              "node_modules/@bpmn-io/form-js/dist/assets/form-js-editor.css";
-              "node_modules/@bpmn-io/form-js/dist/assets/dragula.css";
-              "node_modules/@bpmn-io/form-js/dist/assets/properties-panel.css";
+              "node_modules/@bpmn-io/form-js/dist/assets/form-js.css",
+              "node_modules/@bpmn-io/form-js/dist/assets/form-js-editor.css",
+              "node_modules/@bpmn-io/form-js/dist/assets/dragula.css",
+              "node_modules/@bpmn-io/form-js/dist/assets/properties-panel.css"
             ],
             "scripts": [],
             "vendorChunk": true,
@@ -93,23 +90,15 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "src/tsconfig.spec.json",
             "karmaConfig": "src/karma.conf.js",
-            "styles": [
-              "src/styles.css"
-            ],
+            "styles": ["src/styles.css"],
             "scripts": [],
-            "assets": [
-              "src/favicon.ico",
-              "src/assets"
-            ]
+            "assets": ["src/favicon.ico", "src/assets"]
           }
         },
         "lint": {
           "builder": "@angular-eslint/builder:lint",
           "options": {
-            "lintFilePatterns": [
-              "src/**/*.ts",
-              "src/**/*.html"
-            ]
+            "lintFilePatterns": ["src/**/*.ts", "src/**/*.html"]
           }
         }
       }
