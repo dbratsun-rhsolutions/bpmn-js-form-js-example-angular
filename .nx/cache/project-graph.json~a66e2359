@@ -2165,9 +2165,9 @@
       "type": "npm",
       "name": "npm:@bpmn-io/form-js-editor",
       "data": {
-        "version": "1.8.2",
+        "version": "1.7.3",
         "packageName": "@bpmn-io/form-js-editor",
-        "hash": "sha512-wuZr80qA/bLc56CknHEs99eEMDadfHrKXmNsU4ZXLyChxBansKFHFBGna8/57qtNRsxMmz8jaUlbY7J8dZlnhg=="
+        "hash": "sha512-6kHZQJslKavw1M8JgZpOXyeIRj3wk+2TjosT81iWqreVnDS434cUpd8HTgXZBlrPugYmGjDd1e4Oa2CVVxixWw=="
       }
     },
     "npm:big.js@6.2.1": {
@@ -2188,67 +2188,22 @@
         "hash": "sha512-vyL2OymJxmarO8gxMr0mhChsO9QGwhynfuu4+MHTAW6czfq9humCB7rKpUjDd9YUiDPU4mzpyupFSvOClAwbmQ=="
       }
     },
-    "npm:domify@2.0.0": {
-      "type": "npm",
-      "name": "npm:domify@2.0.0",
-      "data": {
-        "version": "2.0.0",
-        "packageName": "domify",
-        "hash": "sha512-rmvrrmWQPD/X1A/nPBfIVg4r05792QdG9Z4Prk6oQG0F9zBMDkr0GKAdds1wjb2dq1rTz/ywc4ZxpZbgz0tttg=="
-      }
-    },
-    "npm:domify": {
-      "type": "npm",
-      "name": "npm:domify",
-      "data": {
-        "version": "1.4.2",
-        "packageName": "domify",
-        "hash": "sha512-m4yreHcUWHBncGVV7U+yQzc12vIlq0jMrtHZ5mW6dQMiL/7skSYNVX9wqKwOtyO9SGCgevrAFEgOCAHmamHTUA=="
-      }
-    },
-    "npm:min-dom@5.0.0": {
-      "type": "npm",
-      "name": "npm:min-dom@5.0.0",
-      "data": {
-        "version": "5.0.0",
-        "packageName": "min-dom",
-        "hash": "sha512-eqZlSlxmCje0Q1B4sR2RUuh5DOE8FyYLPo35xuJabHBrlzEcG/DFg09TT2tIWRVB3w/6ZgCBkVIPpcOiD66BxQ=="
-      }
-    },
-    "npm:min-dom@3.2.1": {
-      "type": "npm",
-      "name": "npm:min-dom@3.2.1",
-      "data": {
-        "version": "3.2.1",
-        "packageName": "min-dom",
-        "hash": "sha512-v6YCmnDzxk4rRJntWTUiwggLupPw/8ZSRqUq0PDaBwVZEO/wYzCH4SKVBV+KkEvf3u0XaWHly5JEosPtqRATZA=="
-      }
-    },
-    "npm:min-dom": {
-      "type": "npm",
-      "name": "npm:min-dom",
-      "data": {
-        "version": "4.1.0",
-        "packageName": "min-dom",
-        "hash": "sha512-1lj1EyoSwY/UmTeT/hhPiZTsq+vK9D+8FAJ/53iK5jT1otkG9rJTixSKdjmTieEvdfES+sKbbTptzaQJhnacjA=="
-      }
-    },
     "npm:@bpmn-io/form-js-playground": {
       "type": "npm",
       "name": "npm:@bpmn-io/form-js-playground",
       "data": {
-        "version": "1.8.2",
+        "version": "1.7.3",
         "packageName": "@bpmn-io/form-js-playground",
-        "hash": "sha512-UztLQrzA6DaglFlBJrhFBj6N+0cGNRH4cD8Rf5oBPepLRBSMYSyG5fSIvhWae4tvXQhWSdfr8juEEuFw8BMbRQ=="
+        "hash": "sha512-l87drk8rA3/yQa6RhOwRsVIp0kKGSg+asOXLZppNePh1lcaw0iF4taSa2PQeiI2d1GwnA3fjht+NhzzE/r+2/Q=="
       }
     },
     "npm:@bpmn-io/form-js-viewer": {
       "type": "npm",
       "name": "npm:@bpmn-io/form-js-viewer",
       "data": {
-        "version": "1.8.1",
+        "version": "1.7.3",
         "packageName": "@bpmn-io/form-js-viewer",
-        "hash": "sha512-QDDGxEGIyDp756zp8uA0itpj6nmDwz4ZNls9mZSf2+E2oX2jNkxnuhZ7+ZQ0r5TGK291mRBAZJjy0h3DIEBeKw=="
+        "hash": "sha512-/XEDHzZbxmYXAp10ClPQu8h/4CoYqPdUYkppD/fL+UXFTO9ZJFBMn2TGgJEwXZP3H6/m6fSFqPFuWnVudWkCYg=="
       }
     },
     "npm:@bpmn-io/properties-panel": {
@@ -5077,6 +5032,15 @@
         "hash": "sha512-GpVkmM8vF2vQUkj2LvZmD35JxeJOLCwJ9cUkugyk2nuhbv3+mJvpLYYt+0+USMxE+oj+ey/lJEnhZw75x/OMcQ=="
       }
     },
+    "npm:commander@9.5.0": {
+      "type": "npm",
+      "name": "npm:commander@9.5.0",
+      "data": {
+        "version": "9.5.0",
+        "packageName": "commander",
+        "hash": "sha512-KRs7WVDKg86PWiuAqhDrAQnTXZKraVcCc6vFdL14qrZ/DcWwuRo7VoiYXalXO7S5GKpqYiVEwCbgFDfxNHKJBQ=="
+      }
+    },
     "npm:comment-parser": {
       "type": "npm",
       "name": "npm:comment-parser",
@@ -5840,6 +5804,15 @@
         "version": "5.0.3",
         "packageName": "domhandler",
         "hash": "sha512-cgwlv/1iFQiFnU96XXgROh8xTeetsnJiDsTc7TYCLFd9+/WNkIqPTxiM/8pSd8VIrhXGTf1Ny1q1hquVqDJB5w=="
+      }
+    },
+    "npm:domify": {
+      "type": "npm",
+      "name": "npm:domify",
+      "data": {
+        "version": "1.4.2",
+        "packageName": "domify",
+        "hash": "sha512-m4yreHcUWHBncGVV7U+yQzc12vIlq0jMrtHZ5mW6dQMiL/7skSYNVX9wqKwOtyO9SGCgevrAFEgOCAHmamHTUA=="
       }
     },
     "npm:dompurify": {
@@ -6857,6 +6830,24 @@
         "version": "4.2.1",
         "packageName": "min-dash",
         "hash": "sha512-to+unsToePnm7cUeR9TrMzFlETHd/UXmU+ELTRfWZj5XGT41KF6X3L233o3E/GdEs3sk2Tbw/lOLD1avmWkg8A=="
+      }
+    },
+    "npm:min-dom@3.2.1": {
+      "type": "npm",
+      "name": "npm:min-dom@3.2.1",
+      "data": {
+        "version": "3.2.1",
+        "packageName": "min-dom",
+        "hash": "sha512-v6YCmnDzxk4rRJntWTUiwggLupPw/8ZSRqUq0PDaBwVZEO/wYzCH4SKVBV+KkEvf3u0XaWHly5JEosPtqRATZA=="
+      }
+    },
+    "npm:min-dom": {
+      "type": "npm",
+      "name": "npm:min-dom",
+      "data": {
+        "version": "4.1.0",
+        "packageName": "min-dom",
+        "hash": "sha512-1lj1EyoSwY/UmTeT/hhPiZTsq+vK9D+8FAJ/53iK5jT1otkG9rJTixSKdjmTieEvdfES+sKbbTptzaQJhnacjA=="
       }
     },
     "npm:file-entry-cache": {
@@ -8866,15 +8857,6 @@
         "hash": "sha512-7ThobcL8brtGo9CavByQrQi+23aIfgYU++wg4B87AIS8Rb2ZBt/MEaDqzA00Xwv/jUjAjYkLHjVolYuTLKda2A=="
       }
     },
-    "npm:marked": {
-      "type": "npm",
-      "name": "npm:marked",
-      "data": {
-        "version": "12.0.1",
-        "packageName": "marked",
-        "hash": "sha512-Y1/V2yafOcOdWQCX0XpAKXzDakPOpn6U0YLxTJs3cww6VxOzZV1BTOOYWLvH3gX38cq+iLwljHHTnMtlDfg01Q=="
-      }
-    },
     "npm:matches-selector": {
       "type": "npm",
       "name": "npm:matches-selector",
@@ -10799,6 +10781,15 @@
         "version": "1.8.1",
         "packageName": "shell-quote",
         "hash": "sha512-6j1W9l1iAs/4xYBI1SYOVZyFcCis9b4KCLQ8fgAGG07QvzaRLVVRQvAy85yNmmZSjYjg4MWh4gNvlPujU/5LpA=="
+      }
+    },
+    "npm:showdown": {
+      "type": "npm",
+      "name": "npm:showdown",
+      "data": {
+        "version": "2.1.0",
+        "packageName": "showdown",
+        "hash": "sha512-/6NVYu4U819R2pUIk79n67SYgJHWCce0a5xTP979WbNp0FL9MN1I1QK662IDU1b6JzKTvmhgI7T7JYIxBi3kMQ=="
       }
     },
     "npm:side-channel": {
@@ -15639,24 +15630,12 @@
       },
       {
         "source": "npm:@bpmn-io/form-js-editor",
-        "target": "npm:min-dom@5.0.0",
+        "target": "npm:min-dom",
         "type": "static"
       },
       {
         "source": "npm:@bpmn-io/form-js-editor",
         "target": "npm:preact",
-        "type": "static"
-      }
-    ],
-    "npm:min-dom@5.0.0": [
-      {
-        "source": "npm:min-dom@5.0.0",
-        "target": "npm:domify@2.0.0",
-        "type": "static"
-      },
-      {
-        "source": "npm:min-dom@5.0.0",
-        "target": "npm:min-dash",
         "type": "static"
       }
     ],
@@ -15790,17 +15769,17 @@
       },
       {
         "source": "npm:@bpmn-io/form-js-viewer",
-        "target": "npm:marked",
-        "type": "static"
-      },
-      {
-        "source": "npm:@bpmn-io/form-js-viewer",
         "target": "npm:min-dash",
         "type": "static"
       },
       {
         "source": "npm:@bpmn-io/form-js-viewer",
         "target": "npm:preact",
+        "type": "static"
+      },
+      {
+        "source": "npm:@bpmn-io/form-js-viewer",
+        "target": "npm:showdown",
         "type": "static"
       }
     ],
@@ -24930,6 +24909,13 @@
       {
         "source": "npm:shebang-command",
         "target": "npm:shebang-regex",
+        "type": "static"
+      }
+    ],
+    "npm:showdown": [
+      {
+        "source": "npm:showdown",
+        "target": "npm:commander@9.5.0",
         "type": "static"
       }
     ],

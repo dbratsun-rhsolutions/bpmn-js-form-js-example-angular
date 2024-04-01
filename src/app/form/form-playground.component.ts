@@ -5,8 +5,8 @@ import {
   ElementRef,
   ViewChild,
 } from "@angular/core";
-import { FormEditor } from "@bpmn-io/form-js";
-// import "./../utils/custom-component/render.js";
+import { Playground } from "@bpmn-io/form-js-playground";
+// import { CustomFormFields } from "./render";
 
 const schema = {
   type: "default",
@@ -37,7 +37,7 @@ const data = {
 };
 
 @Component({
-  selector: "app-form",
+  selector: "app-form-playground",
   template: ` <div #ref class="form-container"></div> `,
   styles: [
     `
@@ -48,20 +48,15 @@ const data = {
     `,
   ],
 })
-export class FormComponent implements AfterContentInit {
-  private formEditor: FormEditor;
+export class FormPlaygroundComponent implements AfterContentInit {
+  private formPlayground: Playground;
   @ViewChild("ref", { static: true }) private el: ElementRef;
 
   ngAfterContentInit(): void {
-    // const { Errors, FormContext, Numberfield, Description, Label } =
-    //   window["formJs"];
-
-    console.log(window["formJs"]);
-    const { renderExtensions, propertiesPanelExtensions } = window as any;
-    this.formEditor = new FormEditor({
+    this.formPlayground = new Playground({
       container: this.el.nativeElement,
-      // additionalModules: [renderExtensions, propertiesPanelExtensions],
+      schema,
+      data,
     });
-    this.formEditor.importSchema(schema);
   }
 }

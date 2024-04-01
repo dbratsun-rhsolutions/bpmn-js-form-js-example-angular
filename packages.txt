@@ -1,0 +1,2 @@
+    "@bpmn-io/properties-panel": "^3.18.2",
+    "diagram-js": "^14.3.1",
