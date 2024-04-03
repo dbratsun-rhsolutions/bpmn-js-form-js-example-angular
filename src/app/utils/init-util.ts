@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import * as Forms from "@bpmn-io/form-js";
-import * as PropertiesPanel from "@bpmn-io/properties-panel";
+import { PropertiesPanel } from "@bpmn-io/properties-panel";
 import { html, useContext } from "diagram-js/lib/ui";
 
 init();

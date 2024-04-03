@@ -60,7 +60,7 @@ export class FormComponent implements AfterContentInit {
     const { renderExtensions, propertiesPanelExtensions } = window as any;
     this.formEditor = new FormEditor({
       container: this.el.nativeElement,
-      // additionalModules: [renderExtensions, propertiesPanelExtensions],
+      additionalModules: [renderExtensions, propertiesPanelExtensions],
     });
     this.formEditor.importSchema(schema);
   }

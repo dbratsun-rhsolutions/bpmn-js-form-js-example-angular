@@ -6,6 +6,9 @@ import { environment } from "./environments/environment";
 
 import "./app/utils/init-util";
 
+import './app/utils/custom-component/render.js';
+import './app/utils/custom-component/panel-properties.js';
+
 if (environment.production) {
   enableProdMode();
 }

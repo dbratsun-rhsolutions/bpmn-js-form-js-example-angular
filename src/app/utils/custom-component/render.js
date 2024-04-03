@@ -1,6 +1,5 @@
 import classNames from "classnames";
-// import RangeIcon from './range.svg';
-// import './styles.css';
+import { jsx } from 'preact/jsx-runtime';
 
 const rangeType = "range";
 const { Errors, FormContext, Numberfield, Description, Label } =
@@ -64,7 +63,14 @@ RangeRenderer.config = {
   ...Numberfield.config,
   type: rangeType,
   label: "Range",
-  iconUrl: `data:image/svg+xml,${encodeURIComponent(RangeIcon)}`,
+  icon: () => jsx("img", {
+    class: "fjs-field-icon-image",
+    width: 36,
+    style: {
+      margin: 'auto'
+    },
+    src: 'assets/range.svg'
+  }),
   propertiesPanelEntries: [
     "key",
     "label",
